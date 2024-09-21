@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#mainheader img {
+    width: 100%;
+}
+
+#mainheader {
+    background: url("/img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #d19c08;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1em;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+p {
+    color: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* navbar */
+
+.navbar ul {
+    float: right;
+    margin-top: 1em;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+/* showcase */
+
+#showcase {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* .year,
+.clasification,
+.genre, 
+.duration {
+    flex: 1;
+} */
+
+.showcase-row { 
+    display: flex;
+    text-align: left;
+    margin-top: 33em;
+}
+
+.showcase-row h1 {
+    margin-bottom: 2em;
+    margin-left: 4em;
+    text-align: center;
+}
+
+.showcase-row h2 {
+    margin-left: 4em;
+}
+
+/* trailer */
+
+.video {
+    text-align: center;
+    margin-top: 4em;
+}
+
+.content-row-1 {
+    float: left;
+    width: 40%;
+    margin-top: 2em;
+}
+
+.content-row-1 h1 {
+    margin-bottom: 1em;
+}
+
+.content-row-2 {
+    float: right;
+    width: 40%;
+    margin-top: 2em;
+}
+
+
+
+span {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+/* cast */
+
+#cast h1{
+    text-align: center;
+    margin: 1em 0;
+    color: #d19c08;
+    text-transform: uppercase;
+}
+
+.cast-text {
+    background: rgba(128, 128, 128, 0.411);
+    padding: 3px;
+    margin: 0 auto;
+    width: 280px;
+}
+
+#cast h2{
+   text-align: center;
+   margin-bottom: 2em;
+}
+
+#cast hr {
+    width: 280px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    width: 33%;
+    margin-top: 5em;
+
+}
+
+.card h1, h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: 2em;
+  
+}
+
+.cast-row {
+  
+ display: flex;
+ gap: 10px;
+ text-align: center;
+ margin: 0 auto;
+}
+
+#cast .cast-row img {
+    width: 280px;
+    height: 400px;
+}
+
+
+/* footer */
+#footer {
+    text-align: center;
+   
+  
+padding: 7em;
+}
+
+
+
